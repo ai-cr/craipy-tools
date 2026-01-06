@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "craipy-tools"
-version = "0.0.1"                 # CHANGE THIS: Increment for updates
+version = "0.0.1"
 authors = [
   { name="Christian Rink", email="crdeg7plaoh@yahoo.de" },
 ]
