@@ -5,6 +5,7 @@ import struct
 import io
 import wave
 
+
 PLATFORM = sys.platform
 
 if PLATFORM == "win32":
