@@ -25,7 +25,7 @@ if sys.platform == "win32":
       raise Exception(f"Could not match the sound - {sound} - available: ...")
 
     for _ in range(n_times):
-      time.sleep(sleep_time)
       for freq, duration in melody:
         winsound.Beep(freq, duration)
+      time.sleep(sleep_time)
   
